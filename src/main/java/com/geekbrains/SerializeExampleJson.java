@@ -8,7 +8,7 @@ public class SerializeExampleJson {
 
     private static final Gson gson = new Gson();
 
-    private static <T> String getJson(T object) {
+    public static <T> String getJson(T object) {
         return gson.toJson(object);
     }
 
