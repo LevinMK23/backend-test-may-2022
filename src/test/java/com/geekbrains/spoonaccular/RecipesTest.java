@@ -3,6 +3,7 @@ package com.geekbrains.spoonaccular;
 import com.geekbrains.EquipmentItem;
 import com.geekbrains.EquipmentResponse;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
@@ -10,6 +11,7 @@ import static org.hamcrest.Matchers.is;
 
 public class RecipesTest extends SpoonaccularTest {
 
+    @Disabled
     @Test
     void testAutocompleteSearch() throws Exception {
 
