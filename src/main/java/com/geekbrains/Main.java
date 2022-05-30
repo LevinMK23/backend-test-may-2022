@@ -47,6 +47,7 @@ public class Main {
 
             products = productsMapper.selectByExample(example);
             System.out.println(products);
+            System.out.println("Hello world");
         }
 
 
